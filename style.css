@@ -4,7 +4,7 @@ body {
 }
 
 header {
-	background: #1d7f83;
+	background: #0a37b1;
 	padding: 20px 0;
 }
 
@@ -197,7 +197,7 @@ td, th {
 
 .mapa {
 	padding: 3em 0;
-	background: linear-gradient(#FEFEFE, #1d7f83);
+	/* background: linear-gradient(#FEFEFE, #1d7f83); */
 }
 
 .mapa-conteudo {
@@ -212,7 +212,7 @@ td, th {
 
 .beneficios {
 	padding: 3em 0;
-	background: #1d7f83;
+	background: #010541;
 }
 
 .conteudo-beneficios {
