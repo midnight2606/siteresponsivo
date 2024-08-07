@@ -1,5 +1,5 @@
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Gupter', sans-serif;
 	
 }
 
@@ -45,7 +45,7 @@ nav a:hover {
 .produtos {
 	width: 940px;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 400px 0;
 }
 
 .produtos li {
@@ -58,6 +58,7 @@ nav a:hover {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
+	background-color: #ffffff;
 }
 
 .produtos li:hover {
@@ -87,6 +88,12 @@ nav a:hover {
 	margin-top: 10px;
 }
 
+.imagem{ 
+	background-image: url("academia.jpg");
+	height: 1000px;
+	width: 100%;
+}
+
 footer {
 	text-align: center;
 	background: url("bg.jpg");
@@ -104,7 +111,7 @@ footer {
 } */
 
 form {
-	margin: 40px 0;
+	margin: 40px 40px;
 }
 
 form label, form legend {
@@ -213,11 +220,14 @@ td, th {
 .beneficios {
 	padding: 3em 0;
 	background: #010541;
+	color:#FFFFFF
 }
 
 .conteudo-beneficios {
 	width: 640px;
 	margin: 0 auto;
+	color:#FFFFFF
+
 }
 
 .lista-beneficios {
@@ -234,9 +244,6 @@ td, th {
 	font-weight: bold;
 }
 
-.itens:before {
-	content: "🟊";
-}
 
 .imagem-beneficios {
 	width: 60%;
@@ -254,6 +261,27 @@ td, th {
 	margin: 2em auto;
 }
 
+.gupter-regular {
+	font-family: "Gupter", serif;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  .gupter-medium {
+	font-family: "Gupter", serif;
+	font-weight: 500;
+	font-style: normal;
+  }
+  
+  .gupter-bold {
+	font-family: "Gupter", serif;
+	font-weight: 700;
+	font-style: normal;
+  }
+.produto-descricao {
+	margin: 30px 0px 30px;
+}
+  
 @media screen and (max-width: 480px) {
 	.caixa, .principal, .conteudo-beneficios, .video, .mapa-conteudo {
 		width: auto;
@@ -275,6 +303,7 @@ td, th {
 		width: 90%;
 		display: grid;
 		margin: auto;
+		background-color: #FFFFFF;
 	}
 
 	.produtos {
@@ -289,4 +318,5 @@ td, th {
 		text-align: center;
 	} 
 
+	
 }
